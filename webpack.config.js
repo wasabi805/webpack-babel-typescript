@@ -1,6 +1,9 @@
 const path = require("path");
+<<<<<<< HEAD
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
+=======
+>>>>>>> 003e294975254b01034dc5a731f1a682d3468800
 const _ = require("lodash");
 
 module.exports = {
@@ -35,6 +38,7 @@ module.exports = {
             loader: "file-loader",
             options: {
               outputPath: "src/images",
+              name: '[path][name].[ext]',
             },
           },
         ],
@@ -59,10 +63,13 @@ module.exports = {
       },
     ],
   },
+<<<<<<< HEAD
   plugins: [
     new HtmlWebpackPlugin({ template: "src/html/index.html" }),
     new CleanWebpackPlugin(),
   ],
+=======
+>>>>>>> 003e294975254b01034dc5a731f1a682d3468800
   resolve: {
     extensions: [".tsx", ".ts", ".js"],
   },
