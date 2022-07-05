@@ -41,9 +41,9 @@ Below are the changes mentioned above.
           use:[{
             loader: 'file-loader',
 
-            // Assign the output path to include images in the dist folder
             options: {
-              outputPath: 'src/images',
+              outputPath: 'src/images',       <----- Assign the output path to include images in the dist folder
+              name: '[path][name].[ext]'      <----- give a name so that it doesn't show as a hash in the dist folder
             }
         },
 

@@ -23,6 +23,7 @@ module.exports={
                 loader: 'file-loader',
                 options: {
                   outputPath: 'src/images',
+                  name: '[path][name].[ext]'
                 },
               }]
             },
