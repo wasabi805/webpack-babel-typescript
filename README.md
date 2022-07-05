@@ -93,8 +93,10 @@ Next, modify webpack.config.js to include HtmlWebpackPlugin as a plugin. [see th
         filename: 'index_bundle.js',
       },
 
-    plugins: [new HtmlWebpackPlugin(                            <----- 2.) add the plugin to the plugins array
-      {template: 'src/html/index.html'}                         <----- 3.) include a template key with a value for the path to our souce index.html
+    plugins: [new HtmlWebpackPlugin(        <----- 2.) add the plugin to the plugins array
+      {template: 'src/html/index.html',     <----- 3.) include a template key with a value for the path to our souce index.html
+      filename: './src/html/index.html'     <----- 4.) include a filename key with a value for the path to our outputindex.html location in dist
+      }
     )],
     };
 
