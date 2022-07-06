@@ -1,4 +1,4 @@
-# Walk through with Webpack Docs
+# Initial Webpack Set Up | 01
 
 ## To Get Started ...
 
