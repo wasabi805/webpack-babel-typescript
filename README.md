@@ -1,4 +1,4 @@
-# Set up Styles and CSS Loader | style-loader | css-loader
+# Set up Styles and CSS Loader | style-loader | css-loader | 03
 
 - 1.) Install style and css loaders
 
