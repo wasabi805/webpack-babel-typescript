@@ -1,4 +1,4 @@
-# Set Up TypeScriptLoader | ts-loader
+# Set Up TypeScriptLoader | ts-loader | 02
 
 First make sure that typescript is set up and installed: [see the README.md](https://github.com/wasabi805/typeScript-playground)
 
