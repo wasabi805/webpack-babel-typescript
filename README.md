@@ -1,3 +1,5 @@
+![set up](./src/images/webpack-tyescript-babel-logo.jpeg?raw=true)
+
 # About this Repository...
 
 This repo contains a working copy of webpack configured with support for typescript via babel. The Webpack configuartion also includes loaders and support for jest, ts-loader, htmlWebpackPlugin, file-loader, url-loader, style-loader, css-loader, sass-loader, and clean-webpack-plugin.
